@@ -8,3 +8,7 @@ flags:
       type: BOOLEAN_FLAG_TYPE
       description: testing storage
       enabled: false
+      rollouts:
+        - threshold:
+            percentage: 5
+            value: true
